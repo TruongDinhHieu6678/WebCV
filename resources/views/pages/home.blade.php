@@ -12,7 +12,7 @@
       <div class="carousel-caption">
       <h5>Ngôi Nhà Mơ Ước Của Bạn</h5>
         <p>Some representative placeholder content for the second slide.</p>
-        <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>
+        <!--<p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>-->
       </div>
     </div>
     <div class="carousel-item">
@@ -20,7 +20,7 @@
       <div class="carousel-caption">
         <h5>Ngôi Nhà Mơ Ước Của Bạn</h5>
         <p>Some representative placeholder content for the second slide.</p>
-        <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>
+        <!--<p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>-->
       </div>
     </div>
     <div class="carousel-item">
@@ -28,7 +28,7 @@
       <div class="carousel-caption">
       <h5>Ngôi Nhà Mơ Ước Của Bạn</h5>
         <p>Some representative placeholder content for the second slide.</p>
-        <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>
+        <!--<p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>-->
       </div>
     </div>
   </div>
@@ -89,7 +89,7 @@
             <img src="{{('public/frontend/images/iconCountryHouse.jpg')}}" alt="" class="img-fluid">
             </div>
             
-            <a href="#" class="text-dark ">Công Trình Nhà Phố</a>
+            <a href="{{URL::to('/NhaPho')}}" class="text-dark ">Công Trình Nhà Phố</a>
           </div>
         </div>
       </div>
@@ -100,7 +100,7 @@
             <img src="{{('public/frontend/images/iconCountryHouse.jpg')}}" alt="" class="img-fluid">
             </div>
             
-            <a href="#" class="text-dark ">Công Trình Nhà Phố</a>
+            <a href="{{URL::to('/Nha-Cap-4')}}" class="text-dark ">Công Trình Nhà Cấp 4</a>
           </div>
         </div>
       </div>

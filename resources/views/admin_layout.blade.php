@@ -104,7 +104,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <span>Danh Mục Công Trình</span>
                     </a>
                     <ul class="sub">
-						<li><a href="{{URL::to('/add-category-product')}}">Thêm Công Trình</a></li>
+						<li><a href="{{URL::to('/ThemCongTrinh')}}">Thêm Công Trình</a></li>
 						<li><a href="{{URL::to('/all-CongTrinh')}}">Liệt Công Trình</a></li>
                         <li><a href="{{URL::to('/all-order/'.'1')}}">Cập Nhật Công Trình</a></li>
                     </ul>

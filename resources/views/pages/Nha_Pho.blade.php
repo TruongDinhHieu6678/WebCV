@@ -6,7 +6,7 @@
 		<ul class="caption-style-1">
             <div class="container" >
                 <div class="row">
-                <h3 class="text-dark text-center">Nhà Cấp 4</h3>
+                <h3 class="text-dark text-center">Nhà Phố</h3>
                 @foreach($CongTrinh as $Listcongtrinh)
                     <div class="col-12 col-md-12 col-lg-4" style="padding:10px;">
 			            <li>

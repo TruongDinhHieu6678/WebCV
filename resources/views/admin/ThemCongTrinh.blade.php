@@ -24,15 +24,11 @@
                                     {{csrf_field()}}
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Tên Công Trình </label>
-                                    <input type="Text" class="form-control" name="category_product_name" placeholder="Tên Sản Phẩm">
+                                    <input type="Text" class="form-control" name="TenCongTrinh" placeholder="Tên Sản Phẩm">
                                 </div>
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1">Thêm ảnh sản phẩm thứ nhất </label>
-                                    <input type="file" class="form-control" name="image1" placeholder="image">
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1">Thêm ảnh sản phẩm thứ hai </label>
-                                    <input type="file" class="form-control" name="image2" placeholder="image">
+                                <div class="mb-3">
+                                    <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+                                    <input class="form-control" type="file" id="formFileMultiple" multiple>
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Giá sản phẩm </label>
