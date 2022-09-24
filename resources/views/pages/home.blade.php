@@ -62,7 +62,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-6 col-md-6 col-lg-2">
+      <div class="col-6 col-md-6 col-lg-3">
         <div class="card text-center bg-white pb-2">
           <div class="card-body text-dark">
             <div class="img-area mb-4">
@@ -72,17 +72,8 @@
           </div>
         </div>
       </div>
-      <div class="col-6 col-md-6 col-lg-2">
-        <div class="card text-center bg-white pb-2">
-          <div class="card-body text-dark">
-            <div class="img-area mb-4">
-              <img src="{{('public/frontend/images/iconCountryHouse.jpg')}}" alt="" class="img-fluid">
-            </div>
-            <a href="#" class="text-dark ">Cách Tính Diện Tích</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-6 col-md-6 col-lg-2">
+      
+      <div class="col-6 col-md-6 col-lg-3">
         <div class="card text-center bg-white pb-2">
           <div class="card-body text-dark">
             <div class="img-area mb-4">
@@ -93,7 +84,7 @@
           </div>
         </div>
       </div>
-      <div class="col-6 col-md-6 col-lg-2">
+      <div class="col-6 col-md-6 col-lg-3">
         <div class="card text-center bg-white pb-2">
           <div class="card-body text-dark">
             <div class="img-area mb-4">
@@ -104,17 +95,8 @@
           </div>
         </div>
       </div>
-      <div class="col-6 col-md-6 col-lg-2">
-        <div class="card text-center bg-white pb-2">
-          <div class="card-body text-dark">
-            <div class="img-area mb-4">
-            <img src="{{('public/frontend/images/iconCountryHouse.jpg')}}" alt="" class="img-fluid">
-            </div>
-            <a href="#" class="text-dark ">Công Trình Nhà Phố</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-6 col-md-6 col-lg-2">
+
+      <div class="col-6 col-md-6 col-lg-3">
         <div class="card text-center bg-white pb-2">
           <div class="card-body text-dark">
             <div class="img-area mb-4">

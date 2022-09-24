@@ -15,9 +15,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <!-- CSS only -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -46,15 +53,14 @@
         <li class="nav-item">
           <a class="nav-link text-dark" href="{{URL::to('/Gioi-Thieu')}}">Giới Thiệu</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link text-dark dropdown-toggle" id="navbarDropdownMenuCongtrinh" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Công Trình
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item text-dark" href="{{URL::to('/Nha-Cap-4')}}">Nhà Cấp 4</a></li>
-            <li><a class="dropdown-item text-dark" href="{{URL::to('/NhaPho')}}">Xây Dựng Nhà Phố</a></li>
-          </ul>
-        </li>
+        <div class="dropdown">
+          <button class="dropbtn dropdown-toggle">CÔNG TRÌNH</button>
+            <div class="dropdown-content">
+              <a href="{{URL::to('/Nha-Cap-4')}}">Nhà Cấp 4</a>
+              <a href="{{URL::to('/NhaPho')}}">Xây Dựng Nhà Phố</a>
+            </div>
+        </div>
+        
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownDichvu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Dịch Vụ
@@ -135,6 +141,7 @@ For more information about Bootstrap 3 and Glyphicons, visit our Bootstrap 3 Tut
           </p>
           <h3 class="text-dark text-left">Tư Vấn Miển Phí</h3>
           <a href="tel:0908-0996-616"><h3 class="text-left">0908099616</h3></a>
+          <p class="text-dark text-left">Thời Gian Làm Việc: T2 - T7 : 07:00 - 16:00</p>
           <p class="text-dark text-left">Văn phòng chính: 341-343 Điện Biên Phủ, P. 15, Q. Bình Thạnh, TP. HCM</p>
         </div>
         <div class="col-md-12 col-lg-6">
@@ -155,6 +162,7 @@ For more information about Bootstrap 3 and Glyphicons, visit our Bootstrap 3 Tut
         >
   <i class="fas fa-arrow-up"></i>
 </button>
+
 <button
         type="button"
         class="btn btn-floating btn-lg"

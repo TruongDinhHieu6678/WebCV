@@ -106,9 +106,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <ul class="sub">
 						<li><a href="{{URL::to('/ThemCongTrinh')}}">Thêm Công Trình</a></li>
 						<li><a href="{{URL::to('/all-CongTrinh')}}">Liệt Công Trình</a></li>
-                        <li><a href="{{URL::to('/all-order/'.'1')}}">Cập Nhật Công Trình</a></li>
+                        <!--<li><a href="{{URL::to('/all-order/'.'1')}}">Cập Nhật Công Trình</a></li>-->
                     </ul>
                 </li>
+				<!--
 				<li class="sub-menu">
                     <a href="javascript:;">
                         <i class="far fa-address-card"></i>
@@ -118,6 +119,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li><a href="{{URL::to('/list-account/'.'1')}}">Danh Sách Tài Khoản</a></li>
                     </ul>
                 </li>
+				
                 <li class="sub-menu">
                     <a href="javascript:;">
                         <i class="far fa-address-card"></i>
@@ -139,7 +141,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li><a href="{{URL::to('/statistics-quy')}}">Thống Kê Theo Quý</a></li>
                     </ul>
                 </li>
-            </ul>            </div>
+            </ul>            </div>	
+				-->
         <!-- sidebar menu end-->
     </div>
 </aside>

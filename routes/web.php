@@ -34,13 +34,13 @@ Route::post('/admin-dashboard', [AdminController::class, 'dashboard']);
 Route::get('/logout', [AdminController::class, 'logout']);
 
 
-//Admin-CategoryProduct
-Route::get('/add-category-product', [CategoryProduct::class, 'add_category_product']);
+//Admin-CongTrinh
+Route::get('/ThemCongTrinh', [admin_All_CongTrinh::class, 'Add_CongTrinh']);
 Route::get('/edit-CongTrinh/{MaSanPham}', [admin_All_CongTrinh::class, 'edit_CongTrinh']);
 Route::get('/delete-CongTrinh/{MaSanPham}', [admin_All_CongTrinh::class, 'delete_CongTrinh']);
 Route::post('/update-CongTrinh/{MaSanPham}', [admin_All_CongTrinh::class, 'update_CongTrinh']);
 Route::get('/all-CongTrinh', [admin_All_CongTrinh::class, 'all_CongTrinh']);
-Route::post('/save-category-product', [CategoryProduct::class, 'save_category_product']);
+Route::post('/save-CongTrinh', [admin_All_CongTrinh::class, 'save_CongTrinh']);
 //Admin-account
 Route::get('/list-account/{number_page}', [AccountController::class, 'list_account']);
 //Admin-order
